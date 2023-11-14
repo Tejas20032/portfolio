@@ -1129,6 +1129,15 @@ footer a{
         font-size: .8rem;
     }
 
+    .section-services {
+        flex-wrap: wrap;
+      }
+      
+      .section-services .service-box {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+      }
+
    
 }
 
@@ -1157,3 +1166,4 @@ footer a{
     .img-about p{
         font-size: 1rem;
         }}
+ 
