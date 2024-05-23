@@ -266,9 +266,16 @@ span{
     transform: translateY(-80px); 
 
   }
- 
-  
-
+ .mig
+  {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  }
+  .mig1
+  {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 90%);
+  }
 .social-icons a{
     display: inline-flex;
     width: 50px;
@@ -318,17 +325,21 @@ span{
     text-align: center;
 }
 
-.img-box img{
+.img-box img {
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     height: auto;
+    margin-top: 150px;
+
 }
+
 
  .liquid-shape{
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
+    margin-top: 5px;
     top: 10%;
 
  }
@@ -403,20 +414,24 @@ margin-bottom: 1.5rem;
 }
 
 .info-about1{
-    left: 10%;
-    top:34%;
+    position: absolute;
+    left: -40px;
+    top:46%;
 
 }
 
 .info-about2{
-    left: 66%;
-    top:15%;
+    position: absolute;
+    left: 79%;
+    top:32%;
+
     
 }
 
 .info-about3{
-    left: 61%;
-    top:70%;
+    position: absolute;
+    left: 76%;
+    top:470px;
     }
 
     .img-about span{
@@ -575,7 +590,7 @@ line-height: 1.6;
 }
 
 .skill-bar .bar .javascript{
-    width: 50%;
+    width: 20%;
     animation: javascript 4s;
 
 }
