@@ -1068,7 +1068,9 @@ footer a{
     --h2-font: 3rem;
 
     }
-
+    .home {
+        min-height: 64vh;
+    }
     .home-content{
         margin-top: 5rem;
     }
@@ -1083,6 +1085,7 @@ footer a{
         display: block;
         transition:all .4s ease;
     }
+    
 
     #menu-icon.bx-x{
         transform: rotate(-180deg);
@@ -1155,6 +1158,10 @@ footer a{
 
    
 }
+ 
+
+   
+
 
 @media(max-width:420px){
     html{
@@ -1174,10 +1181,31 @@ footer a{
         width: 300px;
     }
 
-    .info-about1, .info-about2, .info-about3{
-        display: none;
-    }
+    .info-about1{
+margin-top:-48px;
+    } 
 
+    .info-about2{
+        margin-top:-19px;
+            } 
+
+    .info-about3{
+        margin-top:-133px;
+            } 
+    
+            .liquid-shape {
+                width: 115%;
+                left: -6%;
+                top: 13%;
+            }
+
+            .img-box img {
+                width: 102%;
+                max-width: 400px;
+                height: auto;
+                margin-top: 147px;
+            }      
+      
     .img-about p{
         font-size: 1rem;
         }}
