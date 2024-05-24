@@ -614,13 +614,13 @@ line-height: 1.6;
 }
 
 .skill-bar .bar .python{
-    width: 52%;
+    width: 30%;
     animation: python 4s;
 
 }
 
 .skill-bar .bar .adobe{
-    width: 65%;
+    width: 52%;
     animation: adobe 4s;
 
 }
